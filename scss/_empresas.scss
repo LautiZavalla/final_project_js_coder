@@ -1,0 +1,35 @@
+main{
+    .tarjetas{
+        width: 1500px;
+        height: auto;
+        align-items: center;
+    }
+}
+
+.jockey{
+    @include logos($jockey)
+}
+
+.patio-olmos{
+    @include logos($patio-olmos)
+}
+
+.bonafide{
+    @include logos($bonafide)
+}
+
+.megatone{
+    @include logos($megatone)
+}
+
+.municipalidad{
+    @include logos($municipalidad)
+}
+
+.unc{
+    @include logos($unc)
+}
+
+.walmart{
+    @include logos($walmart)
+}

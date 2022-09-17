@@ -1,0 +1,43 @@
+$bg-azul:#042743;
+$bg-rojo:#DB0029;
+$jockey: 250px;
+$patio-olmos: 325px;
+$bonafide: 280px;
+$megatone: 240px;
+$municipalidad: 255px;
+$unc: 230px;
+$walmart: 240px;
+
+
+@mixin redes {
+    width: 30px;
+    height: 30px;    
+}
+
+@mixin logos ($width) {
+    width: $width;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'MBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf)
+}
+
+body{
+    background-color: #808587;
+}
+
+a{
+    font-family: 'MBold';
+}

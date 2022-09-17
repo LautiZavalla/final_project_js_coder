@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+@font-face {
+  font-family: 'MBold';
+  src: url(../fonts/Montserrat-ExtraBold.ttf); }
+
+body {
+  background-color: #808587; }
+
+a {
+  font-family: 'MBold'; }
+
+header {
+  color: #f0ffff; }
+  header .background_co {
+    background-color: #042743; }
+
+a:hover {
+  background-color: #DB0029; }
+
+main .tarjetas {
+  width: 1500px;
+  height: auto;
+  align-items: center; }
+
+.jockey {
+  width: 250px;
+  height: auto; }
+
+.patio-olmos {
+  width: 325px;
+  height: auto; }
+
+.bonafide {
+  width: 280px;
+  height: auto; }
+
+.megatone {
+  width: 240px;
+  height: auto; }
+
+.municipalidad {
+  width: 255px;
+  height: auto; }
+
+.unc {
+  width: 230px;
+  height: auto; }
+
+.walmart {
+  width: 240px;
+  height: auto; }
+
+footer {
+  background-color: #042743;
+  height: 100vh; }
+
+.facebook {
+  width: 30px;
+  height: 30px; }
+
+.whatsapp {
+  width: 30px;
+  height: 30px; }
+
+.instagram {
+  width: 30px;
+  height: 30px; }
+
+.cont-index {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .cont-index .logo-crewone {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    transition: all 1s; }
+  .cont-index .logo-crewone:hover {
+    width: 800px;
+    height: 800px; }
+
+.carousel-inner {
+  height: 500px; }
+
+.d-block {
+  display: flex;
+  justify-content: center;
+  width: 200px; }

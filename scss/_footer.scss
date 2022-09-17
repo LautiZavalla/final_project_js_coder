@@ -1,0 +1,17 @@
+footer{
+    background-color: $bg-azul;
+    height: 100vh;
+}
+
+.facebook{
+    @include redes
+}
+
+.whatsapp{
+    @include redes
+}
+
+.instagram{
+    @include redes
+}
+

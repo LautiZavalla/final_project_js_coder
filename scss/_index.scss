@@ -1,0 +1,16 @@
+.cont-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo-crewone{
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        height: 700px;
+        transition: all 1s;
+    }
+    .logo-crewone:hover{
+        width: 800px;
+        height: 800px;
+    }
+}

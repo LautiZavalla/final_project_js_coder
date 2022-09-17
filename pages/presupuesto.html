@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Empresa de mantenimiento y construccion, numero uno. Ofrecemos servicios a empresas, años  y experiencia nos avalan">
+    <meta name="keywords"  content="empresa, empresas, mantenimiento, servicio, crewone, crew, one, construcción, durlock, electricidad, gas, mampostería, herrería, obras, constructora, cordoba, argentina, contacto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS Personal -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/crewoneicon.ico">
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Presupuesto - Crew One</title>
+</head>
+
+<!-- Start body -->
+
+<body>
+
+    <!-- Start header -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg background_co">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="../index.html"><img src="../img/Isologo-red.png" alt="isologo de crewone" width="35" height="35"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./trabajos.html">Trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./empresas.html">Empresas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./presupuesto.html">Presupuesto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- End header -->
+
+    <!-- Start main -->
+    <main class="container">
+      <!-- Start titulo main -->
+      <div class="container">
+        <h1 class="display-1">
+            Calculá tu presupuesto aproximado con nuestra herramienta
+        </h1>
+      </div>
+      <!-- End titulo main -->
+      <br>
+      <!-- Start form -->
+      <form>
+        <div class="mb-3">
+          <label for="#" class="form-label">Nombre Completo</label>
+          <input type="text" class="form-control" id="nombreUser" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
+          <div id="emailHelp" class="form-text">Nombre de la empresa en caso de corresponder.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+          <input type="email" class="emailUser form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo electronico">
+          <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie, solo se enviara un correo con el monto total calculado.</div>
+        </div>
+        <div class="mb-3">
+          <select id="selectRubro" class="form-select" aria-label="Default select example">
+          <option selected>Selecciona sobre que rubro queres calcular tu presupuesto</option>
+          <option value="1">Durlock</option>
+          <option value="2">Revestimiento de durlock (solo colocación de placas)</option>
+          <option value="3">Mampostería</option>
+          <option value="4">Revoque sobre mampostería</option>
+          <option value="5">Pintura interior</option>
+          <option value="6">Pintura exterior</option>
+          <option value="7">Instalación aires acondicionados</option>
+          <option value="8">Services aires acondicionados</option>
+          </select>
+      </div>
+      <div class="mb-3">
+        <label for="#" class="form-label">M2 a calcular</label>
+        <input type="number" class="form-control" id="m2User" placeholder="Ingrese cantidad de m2 o u">
+        <div id="emailHelp" class="form-text">En caso de corresponder unidad colocar unidad.</div>
+      </div>
+      <br>
+        <button id="btnCalcular" type="button" class="btn btn-primary">Calcular!</button>
+      </form>
+      <br><br>
+      <!-- End form -->
+    </main>
+
+    <!-- End main -->
+
+    <!-- Star footer -->
+
+    <footer>
+      <nav class="navbar background_co">
+          <div class="container background_co">
+            <a class="navbar-brand" href="https://www.facebook.com/" target="_blank">
+              <img class="facebook" src="../img/facebook.png" alt="logo de facebook">
+            </a>
+            <a class="navbar-brand" href="https://www.whatsapp.com/" target="_blank">
+              <img class="whatsapp" src="../img/whatsapp.png" alt="logo de whatsapp">
+            </a>
+            <a class="navbar-brand" href="https://www.instagram.com/" target="_blank">
+              <img class="instagram" src="../img/instagram.png" alt="logo de instagram">
+            </a>
+          </div>
+        </nav>
+    </footer>
+
+    <!-- End footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="../script/script.js"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+<!-- End body -->
+</html>
+
+
